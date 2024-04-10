@@ -1,0 +1,60 @@
+.flexNone {
+    display: flex;
+}
+
+.widthsixty {
+    width: 60%;
+}
+
+.widthforty {
+    width: 40%;
+}
+
+.footerLeftDisplayNone {
+    display: flex;
+}
+
+.WhyChooseUsFlex {
+    display: flex;
+}
+
+.footerFlex {
+    display: flex;
+}
+
+@media screen and (max-width : 1240px) {
+    .footerLeftDisplayNone {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .flexNone {
+        display: block;
+    }
+
+    .widthsixty,
+    .widthforty {
+        width: 100%;
+    }
+
+    .widthforty {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .WhyChooseUsFlex {
+        display: block;
+    }
+
+    .spacing {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footerFlex {
+        display: block;
+    }
+}
